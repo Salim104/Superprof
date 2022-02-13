@@ -60,6 +60,10 @@ p {
   line-height: 2;
 }
 
+.para {
+  visibility: hidden;
+}
+
 .sign-up {
   width: 60%;
   padding: 10px;
@@ -124,7 +128,7 @@ input {
 }
 
 .community {
-  width: 80%;
+  width: 70%;
   margin: auto;
   text-align: center;
 }
@@ -136,14 +140,15 @@ input {
 }
 .community-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 5px;
 }
 .community-col {
   width: 40%;
   border-radius: 10px;
   margin-bottom: 5%;
-  padding: 20px 12px;
+  margin-top: 0px;
+  padding: 10px 12px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -170,12 +175,12 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 50px;
 }
 
 .slide-text {
   text-align: start;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -266,4 +271,95 @@ h3 {
 .maditate {
   width: 280px;
   padding-bottom: 20px;
+}
+
+@media (max-width: 850px) {
+  .header-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .inner-info h2,
+  .inner-info p {
+    display: none;
+  }
+
+  .title {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .para {
+    visibility: visible;
+  }
+  .header-col {
+    width: 80%;
+    margin-top: 0px;
+  }
+  .sign-up {
+    width: 100%;
+  }
+
+  .btn-fa {
+    width: 80%;
+    padding: 20px 30px;
+    background-color: #3b5998;
+  }
+  form {
+    width: 100%;
+  }
+  .btn-go {
+    width: 80%;
+    padding: 20px 30px;
+    background-color: white;
+    border: 1px solid rgb(88, 87, 87);
+  }
+  .btn-ema {
+    width: 80%;
+    padding: 20px 30px;
+    background-color: #fcc748;
+    border: none;
+  }
+
+  input {
+    width: 70%;
+  }
+
+  h1 .show-title {
+    font-size: 16px;
+  }
+  .community-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .community-col {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .slide {
+    margin-top: 0px;
+    background-color: white;
+  }
+
+  .become-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .become-col {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #become-third {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .help-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .help-list ul {
+    text-align: start;
+  }
 }
