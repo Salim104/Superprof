@@ -363,3 +363,36 @@ h3 {
     text-align: start;
   }
 }
+.service {
+  text-align: center;
+  width: 100%;
+  background-color: #fefefe;
+}
+
+.service h1 {
+  font-size: 34px;
+  padding-top: 20px;
+}
+
+.service-row {
+  display: flex;
+  padding: 20px;
+}
+
+.service-col {
+  display: flex;
+  /* justify-content: flex-start; */
+  flex-direction: column;
+  text-align: start;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.service-col:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+i .fa-money {
+  width: 200px;
+}
