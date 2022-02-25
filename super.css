@@ -523,3 +523,86 @@ footer .wrapper {
   cursor: pointer;
   margin: 5px 2px;
 }
+
+@media (max-width: 850px) {
+  /* .illustration img {
+    width: 100px;
+  } */
+  .become-col img {
+    width: 200px;
+  }
+  .service h1 {
+    font-size: 24px;
+  }
+  .service-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-col {
+    margin: 20px;
+  }
+  .users h1 {
+    font-size: 24px;
+  }
+  .row-users {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-users {
+    width: 170px;
+  }
+
+  .lesson h1 {
+    font-size: 26px;
+  }
+  .lesson-col h2 {
+    font-size: 18px;
+  }
+
+  .lesson-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lesson-col {
+    width: 75%;
+  }
+  .lesson-col p {
+    font-size: 18px;
+    width: 100%;
+  }
+  div.help-col {
+    width: 80%;
+  }
+  div.help-list {
+    width: 70%;
+  }
+  footer {
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper {
+    height: 100%;
+  }
+  .footer-row {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  footer hr {
+    position: relative;
+    top: 100px;
+    align-self: center;
+  }
+  footer p {
+    position: relative;
+    top: 100px;
+    align-self: flex-start;
+  }
+}
