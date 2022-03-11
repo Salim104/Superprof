@@ -615,7 +615,7 @@ footer .wrapper {
   }
   footer p {
     position: relative;
-    top: 110px;
+    top: 100px;
     align-self: flex-start;
   }
 }
